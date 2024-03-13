@@ -1,0 +1,24 @@
+.form-img-product-wraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-img-Product-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-product-update {
+  width: 150px;
+  height: 170px;
+}
+
+.img-product-update image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.form-img-Product-box input {
+  margin: 20px 0 50px 0;
+}

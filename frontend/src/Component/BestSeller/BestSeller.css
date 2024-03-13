@@ -1,0 +1,33 @@
+.btn-seller {
+  position: absolute;
+  z-index: 100;
+  top: -10px;
+  right: -10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #cccc;
+  border-radius: 50%;
+  outline: none;
+  background-color: #e02417;
+  box-shadow: rgb(3, 12, 23) 0px 20px 30px -10px;
+}
+
+.btn-seller::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: calc(100% - 4px);
+  width: calc(100% - 4px);
+  content: "";
+  visibility: visible;
+  border-radius: 50%;
+  border: 1px dashed #fff;
+  z-index: 2;
+}
+
+.btn-seller span {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}

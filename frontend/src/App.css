@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #eff1f1 !important;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+.wrapper {
+  margin-top: 50px;
+}
+.title-wrapper {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-left: 90px;
+}
+
+.Logo {
+  font-weight: 600;
+}
+
+.bannerImg {
+  margin: 10px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.title-wraper {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 50px;
+  border-bottom: 1px solid black;
+  line-height: 4rem;
+  text-transform: uppercase;
+  margin: 0 30%;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: black !important;
+}
+
+.rowCt {
+  width: 0 !important;
+  max-width: 0 !important;
+}
+
+.center {
+  display: flex !important;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.BestSeler-Wraper {
+  background: url("https://theme.hstatic.net/1000069970/1001119059/14/preorder-bg.png?v=1958");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 124px;
+}
+
+.active {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
